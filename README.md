@@ -1,6 +1,6 @@
 # Una-Health-Data-Challenge
 
-Project description
+## Project description
 
 This dataset was provided by Una Health.
 The main objective of this data challenge is to visualise blood glucose levels and find connections between the blood glucose levels and tracked meals.
