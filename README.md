@@ -9,8 +9,8 @@ The main objective of this data challenge is to visualise blood glucose levels a
 ## Data
 The data consists of:
 
-A csv file with the historic blood glucose levels of the patient: levels_all.csv . We're interested in blood glucose readings which have an Aufzeichnungstyp of either 0 or 1 (those appear in different columns because they are different types, automatically collected every 15 minutes vs. manual scanned by the patient, but are readings from the same sensor and thus should be treated as such). The blood glucose reading is noted in Glukosewert-Verlauf mg/dL or Glukose-Scan mg/dL . All timestamps noted in this file are UTC.
-A csv file with the tracked meals of the patient: activities_all.csv . Each meal is identified by a UUID.
+1. A csv file with the historic blood glucose levels of the patient: levels_all.csv . We're interested in blood glucose readings which have an Aufzeichnungstyp of either 0 or 1 (those appear in different columns because they are different types, automatically collected every 15 minutes vs. manual scanned by the patient, but are readings from the same sensor and thus should be treated as such). The blood glucose reading is noted in Glukosewert-Verlauf mg/dL or Glukose-Scan mg/dL . All timestamps noted in this file are UTC.
+2. A csv file with the tracked meals of the patient: activities_all.csv . Each meal is identified by a UUID.
 You can download the sample data from here: https://s3-de-central.profitbricks.com/una-health-data-challenge/una-health-data-challenge.zip
 
 ## Tasks
